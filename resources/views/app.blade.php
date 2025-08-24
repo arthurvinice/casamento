@@ -79,9 +79,9 @@
             font-style: normal;
         }
 
-        * {
+        /* * {
             font-family: 'CalRoman', sans-serif !important;
-        }
+        } */
 
         /* Layout fixes para navbar fixa e sticky footer */
         body {
