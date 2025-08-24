@@ -9,7 +9,7 @@
             </div>
             <h4 class="mb-1">
               <span class="position-relative fw-extrabold z-1"
-                >O que estão comentando...
+                >Mural de recados
                 <img src="../../assets/img/front-pages/icons/section-title-icon.png" alt="laptop charging" class="section-title-img position-absolute object-fit-contain bottom-0 z-n1" />
               </span>
             </h4>

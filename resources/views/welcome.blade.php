@@ -134,6 +134,10 @@
         #contagem {
             font-family: 'Playfair Display', serif !important;
         }
+
+        #comments {
+          scroll-margin-top: 80px;
+        }
       </style>
     
   </head>
@@ -178,7 +182,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Nossa História</a></li>
                                 <li><a class="dropdown-item" href="#">Fotos</a></li>
-                                <li><a class="dropdown-item" href="#">Mensagens</a></li>
+                                <li><a class="dropdown-item" href="#comments">Mensagens</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -237,9 +241,9 @@
     <!-- Useful features: End -->
 
     <!-- Livewire Comment Section -->
-
+    <div id="comments">
       @livewire('comment-section')
-
+    </div>
     <!-- End Livewire Comment Section -->
 
     <!-- Our great team: Start -->
