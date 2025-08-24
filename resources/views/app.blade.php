@@ -165,6 +165,8 @@
 
         #paragrafo {
             text-justify: auto;
+            text-align: justify;
+            font-size: 20px;
         }
 
         #comments {

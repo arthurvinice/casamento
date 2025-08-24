@@ -61,7 +61,7 @@
                                     Bem-vindos ao nosso site
                                 </h2>
                             </span>
-                            <p class="mt-6 text-justify" style="color: #526760; text-transform: uppercase; font-size: 15px"
+                            <p class="mt-6 text-justify" style="color: #526760; text-transform: uppercase; "
                                 id="paragrafo">
                                 Aqui, queremos
                                 compartilhar com vocês, nossos queridos amigos
@@ -71,7 +71,7 @@
                                 para o nosso grande dia começou!
                             </p>
 
-                            <p class="mb-4 text-justify" style="color: #526760; text-transform: uppercase; font-size: 15px"
+                            <p class="mb-4 text-justify" style="color: #526760; text-transform: uppercase; "
                                 id="paragrafo">
                                 Estamos cheios de
                                 emoção, com o coração batendo mais forte e
@@ -80,7 +80,7 @@
                                 nesse sonho, que celebra a união das nossas almas, corações e destinos.
                             </p>
 
-                            <p class="mb-4 text-justify" style="color: #526760; text-transform: uppercase; font-size: 15px"
+                            <p class="mb-4 text-justify" style="color: #526760; text-transform: uppercase;"
                                 id="paragrafo">
                                 Preparem-se para fazer parte dessa história tão importante para nós. Vamos juntos, com
                                 amor e gratidão, rumo ao nosso "sim".
@@ -107,8 +107,8 @@
         <!-- End Livewire Comment Form Section -->
 
         <!-- Back to top -->
-        <div class="row">
-            <div class="col-md-12 d-flex justify-content-center mb-4">
+        <div class="row mb-6">
+            <div class="col-md-12 d-flex justify-content-center mb-6">
                 <button id="back-to-top" type="button" class="btn btn-outline-primary waves-effect"><span
                         class="icon-xs icon-base ti tabler-arrow-up me-2"></span>Voltar ao topo</button>
             </div>
