@@ -79,6 +79,10 @@
             font-style: normal;
         }
 
+        * {
+            font-family: 'CalRoman', sans-serif !important;
+        }
+
         /* Layout fixes para navbar fixa e sticky footer */
         body {
             display: flex;
@@ -86,11 +90,9 @@
             min-height: 100vh;
         }
 
-        /* Espaçamento padrão para navbar fixa */
         main {
             flex: 1;
             padding-top: 80px;
-            /* Ajuste conforme altura da sua navbar */
         }
 
         /* Para páginas internas (não homepage) */
@@ -99,7 +101,6 @@
             /* 100vh menos navbar e footer */
         }
 
-        /* Homepage específico - remove padding e permite hero fullscreen */
         .homepage main {
             padding-top: 0 !important;
         }
@@ -110,7 +111,6 @@
             z-index: 1001;
         }
 
-        /* Para o hero da homepage funcionar corretamente */
         .homepage #landingHero {
             position: relative;
             z-index: 1;
