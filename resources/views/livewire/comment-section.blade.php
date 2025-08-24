@@ -1,11 +1,11 @@
 <!-- Real customers reviews: Start -->
-    <section id="landingReviews" class="section-py bg-body landing-reviews pb-0" data-aos="fade-up">
+    <section id="landingReviews" class="section-py landing-reviews pb-0" data-aos="fade-up" style="background-color: #f6c8c7; border-radius: 0 !important">
       <!-- What people say slider: Start -->
       <div class="container">
         <div class="row align-items-center gx-0 gy-4 g-lg-5 mb-5 pb-md-5">
           <div class="col-md-6 col-lg-5 col-xl-3">
             <div class="mb-4">
-              <span class="badge bg-label-primary">Comentários</span>
+              <!-- <span class="badge bg-label-primary">Comentários</span> -->
             </div>
             <h4 class="mb-1">
               <span class="position-relative fw-extrabold z-1"
@@ -32,9 +32,8 @@
                 <div class="swiper-wrapper">
                     @foreach ($peoples as $people)
                   <div class="swiper-slide">
-                    <div class="card h-100">
-                        
-                      <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                    <div class="card h-200">
+                      <div class="card-body text-body d-flex flex-column justify-content-between h-200">
                         <p>{{$people->message}}</p>
                         <div class="d-flex align-items-center">
                           <div>
